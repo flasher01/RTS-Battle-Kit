@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: e9dbe901c7f2f2a4aa7d03034e254a8c
+timeCreated: 1459856156
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chest
+    100002: foot.L
+    100004: foot.L_end
+    100006: foot.R
+    100008: foot.R_end
+    100010: forearm.L
+    100012: forearm.L.001
+    100014: forearm.L.001_end
+    100016: forearm.R
+    100018: forearm.R.001
+    100020: forearm.R.001_end
+    100022: hand.L
+    100024: hand.L_end
+    100026: hand.R
+    100028: hand.R_end
+    100030: head
+    100032: head_end
+    100034: hips
+    100036: //RootNode
+    100038: neck
+    100040: shin.L
+    100042: shin.R
+    100044: shoulder.L
+    100046: shoulder.R
+    100048: spine
+    100050: thigh.L
+    100052: thigh.R
+    100054: unarmed soldier mesh
+    100056: unarmed soldier rig
+    100058: unarmed soldier sword
+    100060: upper_arm.L
+    100062: upper_arm.R
+    400000: chest
+    400002: foot.L
+    400004: foot.L_end
+    400006: foot.R
+    400008: foot.R_end
+    400010: forearm.L
+    400012: forearm.L.001
+    400014: forearm.L.001_end
+    400016: forearm.R
+    400018: forearm.R.001
+    400020: forearm.R.001_end
+    400022: hand.L
+    400024: hand.L_end
+    400026: hand.R
+    400028: hand.R_end
+    400030: head
+    400032: head_end
+    400034: hips
+    400036: //RootNode
+    400038: neck
+    400040: shin.L
+    400042: shin.R
+    400044: shoulder.L
+    400046: shoulder.R
+    400048: spine
+    400050: thigh.L
+    400052: thigh.R
+    400054: unarmed soldier mesh
+    400056: unarmed soldier rig
+    400058: unarmed soldier sword
+    400060: upper_arm.L
+    400062: upper_arm.R
+    2300000: unarmed soldier sword
+    3300000: unarmed soldier sword
+    4300000: unarmed soldier sword
+    4300002: unarmed soldier mesh
+    7400000: Attacking
+    7400002: unarmed soldier rig|Die
+    7400004: Idle
+    7400006: Running
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: unarmed soldier mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attacking
+      takeName: unarmed soldier rig|Attacking
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: unarmed soldier mesh
+        weight: 1
+      - path: unarmed soldier rig
+        weight: 1
+      - path: unarmed soldier rig/hips
+        weight: 1
+      - path: unarmed soldier rig/hips/spine
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck/head
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/unarmed
+          soldier sword
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: unarmed soldier rig|Idle
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: unarmed soldier mesh
+        weight: 1
+      - path: unarmed soldier rig
+        weight: 1
+      - path: unarmed soldier rig/hips
+        weight: 1
+      - path: unarmed soldier rig/hips/spine
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck/head
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/unarmed
+          soldier sword
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running
+      takeName: unarmed soldier rig|Running
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: unarmed soldier mesh
+        weight: 1
+      - path: unarmed soldier rig
+        weight: 1
+      - path: unarmed soldier rig/hips
+        weight: 1
+      - path: unarmed soldier rig/hips/spine
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck/head
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: unarmed soldier rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/unarmed
+          soldier sword
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: unarmed soldier rig/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Low poly unarmed soldier(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: unarmed soldier mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.21183038, y: 0.21183038, z: 0.21183038}
+      transformModified: 1
+    - name: unarmed soldier rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hips
+      position: {x: -0, y: 0.20944576, z: 0.71878827}
+      rotation: {x: 0.9782551, y: -0.00000004944947, z: -0.0000002332345, w: 0.20740533}
+      scale: {x: 1, y: 1.0000001, z: 1.0000012}
+      transformModified: 1
+    - name: spine
+      position: {x: 4.440892e-16, y: 0.22272193, z: 0.0000000067520887}
+      rotation: {x: -0.5375009, y: 0.000000100525405, z: 0.00000019222556, w: 0.8432632}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: chest
+      position: {x: 6.442465e-16, y: 0.30457687, z: 0.0000000011059456}
+      rotation: {x: -0.020232318, y: 0.00000011918488, z: 0.0000000024119513, w: 0.9997953}
+      scale: {x: 1.2520528, y: 1.1217109, z: 1.1217105}
+      transformModified: 1
+    - name: neck
+      position: {x: 2.543415e-20, y: 0.54437774, z: 0.011786577}
+      rotation: {x: 0.0066010808, y: 3.552714e-14, z: -2.4424908e-14, w: 0.99997824}
+      scale: {x: 1, y: 0.9999994, z: 0.99999976}
+      transformModified: 1
+    - name: head
+      position: {x: 8.858939e-20, y: 0.079651006, z: 4.656613e-10}
+      rotation: {x: 0.011231009, y: 1.458646e-14, z: 1.4956449e-14, w: 0.99993694}
+      scale: {x: 0.8238988, y: 0.82589716, z: 0.9999724}
+      transformModified: 1
+    - name: head_end
+      position: {x: -0, y: 0.5684191, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder.L
+      position: {x: -0.040026575, y: 0.52050805, z: 0.08050796}
+      rotation: {x: -0.58613634, y: 0.39816627, z: 0.3671133, w: 0.6026074}
+      scale: {x: 1.0023105, y: 1.0023232, z: 1.0000243}
+      transformModified: 1
+    - name: upper_arm.L
+      position: {x: -0.031483736, y: 0.22346658, z: -0.067966126}
+      rotation: {x: 0.16544124, y: -0.7248021, z: 0.1989699, w: 0.63851565}
+      scale: {x: 1.0603752, y: 0.9005077, z: 1.0460253}
+      transformModified: 1
+    - name: forearm.L
+      position: {x: -0.0000000012223609, y: 0.30565533, z: -0.0000000037252903}
+      rotation: {x: -0.00935731, y: 0.09208121, z: 0.006213217, w: 0.9956882}
+      scale: {x: 0.9977602, y: 1.0021739, z: 1.0001673}
+      transformModified: 1
+    - name: hand.L
+      position: {x: -0.0000000023719622, y: 0.32769287, z: 0.000000002561137}
+      rotation: {x: 0.017576901, y: -0.7349748, z: 0.025105566, w: 0.6774016}
+      scale: {x: 1.0004383, y: 1.001621, z: 0.9978736}
+      transformModified: 1
+    - name: hand.L_end
+      position: {x: -0, y: 0.20882887, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: forearm.L.001
+      position: {x: -0.0000000023719622, y: 0.32769287, z: 0.000000002561137}
+      rotation: {x: 0.44870067, y: 0.49561685, z: 0.4125743, w: 0.6187198}
+      scale: {x: 0.9944952, y: 1.0023055, z: 1.0037553}
+      transformModified: 1
+    - name: forearm.L.001_end
+      position: {x: -0, y: 0.14122611, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder.R
+      position: {x: 0.040026575, y: 0.52050805, z: 0.08050796}
+      rotation: {x: -0.58613634, y: -0.39816612, z: -0.36711323, w: 0.60260755}
+      scale: {x: 1.0023105, y: 1.0023232, z: 1.0000242}
+      transformModified: 1
+    - name: upper_arm.R
+      position: {x: 0.031483736, y: 0.22346658, z: -0.067966126}
+      rotation: {x: 0.16544141, y: 0.7248019, z: -0.19897008, w: 0.6385157}
+      scale: {x: 1.0595177, y: 0.9012705, z: 1.0460322}
+      transformModified: 1
+    - name: forearm.R
+      position: {x: -0.000000027182978, y: 0.30565518, z: -0.000000004656613}
+      rotation: {x: -0.009357332, y: -0.09208112, z: -0.0062133064, w: 0.99568814}
+      scale: {x: 0.99954826, y: 1.0002391, z: 1.0002091}
+      transformModified: 1
+    - name: hand.R
+      position: {x: 0.00000004011963, y: 0.3276928, z: 0.0000000031432137}
+      rotation: {x: -0.01757675, y: -0.73497474, z: 0.025105566, w: -0.67740154}
+      scale: {x: 1.0004139, y: 1.0016223, z: 0.99789286}
+      transformModified: 1
+    - name: hand.R_end
+      position: {x: -0, y: 0.20882887, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: unarmed soldier sword
+      position: {x: -0.10799098, y: 0.14565483, z: 0.04627271}
+      rotation: {x: -0.5969099, y: -0.50343555, z: 0.36059383, w: 0.5101209}
+      scale: {x: 0.17943802, y: 0.17943797, z: 0.17943788}
+      transformModified: 1
+    - name: forearm.R.001
+      position: {x: 0.00000004011963, y: 0.3276928, z: 0.0000000031432137}
+      rotation: {x: -0.4487008, y: 0.49561688, z: 0.41257423, w: -0.6187197}
+      scale: {x: 0.99450034, y: 1.0022835, z: 1.0038012}
+      transformModified: 1
+    - name: forearm.R.001_end
+      position: {x: -0, y: 0.14122611, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh.L
+      position: {x: -0.12623857, y: 0.21102703, z: 0.020994112}
+      rotation: {x: 0.8293666, y: 0.010959969, z: -0.0073813577, w: 0.5585485}
+      scale: {x: 0.9999997, y: 1.0000019, z: 1.000002}
+      transformModified: 1
+    - name: shin.L
+      position: {x: -0.0000000033319338, y: 0.32652768, z: -0.0000000014788188}
+      rotation: {x: 0.0147390645, y: -0.0000410038, z: 0.029202634, w: 0.9994648}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999993}
+      transformModified: 1
+    - name: foot.L
+      position: {x: -0.0000000105472395, y: 0.39809328, z: -6.145662e-11}
+      rotation: {x: -0.67890275, y: 0.028342053, z: 0.0071407715, w: 0.7336462}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000008}
+      transformModified: 1
+    - name: foot.L_end
+      position: {x: -0, y: 0.3046527, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh.R
+      position: {x: 0.1262386, y: 0.21102704, z: 0.020993998}
+      rotation: {x: 0.8293666, y: -0.010959728, z: 0.0073809805, w: 0.5585485}
+      scale: {x: 0.99999976, y: 1.0000014, z: 1.0000013}
+      transformModified: 1
+    - name: shin.R
+      position: {x: -0.0000000022084805, y: 0.32652763, z: -0.0000000015884272}
+      rotation: {x: 0.0147390645, y: 0.00004100287, z: -0.029202638, w: 0.9994648}
+      scale: {x: 0.9999997, y: 1.0000008, z: 1.0000005}
+      transformModified: 1
+    - name: foot.R
+      position: {x: 0.000000007981072, y: 0.39809328, z: -1.1855406e-10}
+      rotation: {x: -0.67890275, y: -0.028342033, z: -0.007140783, w: 0.7336462}
+      scale: {x: 1.0000004, y: 1.0000018, z: 1.0000013}
+      transformModified: 1
+    - name: foot.R_end
+      position: {x: -0, y: 0.3046527, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

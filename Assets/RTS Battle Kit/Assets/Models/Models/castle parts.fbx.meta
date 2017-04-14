@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 6aa6f33e4beda064e8516e6f2fb7843f
+timeCreated: 1472989222
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Castle bridge
+    100002: Castle gate
+    100004: //RootNode
+    100006: Castle tower
+    100008: Castle tower round
+    100010: Castle tower round roof
+    100012: Castle tower small
+    100014: Castle wall
+    100016: Castle wall 1
+    400000: Castle bridge
+    400002: Castle gate
+    400004: //RootNode
+    400006: Castle tower
+    400008: Castle tower round
+    400010: Castle tower round roof
+    400012: Castle tower small
+    400014: Castle wall
+    400016: Castle wall 1
+    2300000: Castle bridge
+    2300002: Castle gate
+    2300004: Castle tower
+    2300006: Castle tower round
+    2300008: Castle tower round roof
+    2300010: Castle tower small
+    2300012: Castle wall
+    2300014: Castle wall 1
+    3300000: Castle bridge
+    3300002: Castle gate
+    3300004: Castle tower
+    3300006: Castle tower round
+    3300008: Castle tower round roof
+    3300010: Castle tower small
+    3300012: Castle wall
+    3300014: Castle wall 1
+    4300000: Castle tower
+    4300002: Castle gate
+    4300004: Castle tower round
+    4300006: Castle tower small
+    4300008: Castle wall
+    4300010: Castle wall 1
+    4300012: Castle bridge
+    4300014: Castle tower round roof
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

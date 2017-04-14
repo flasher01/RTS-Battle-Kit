@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: d15dc17843f304f439b0244b5794c8da
+timeCreated: 1473860325
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: archer arrow holder
+    100002: archer bow
+    100004: archer mesh
+    100006: archer rig
+    100008: arrow
+    100010: chest
+    100012: foot.L
+    100014: foot.L_end
+    100016: foot.R
+    100018: foot.R_end
+    100020: forearm.L
+    100022: forearm.L.001
+    100024: forearm.L.001_end
+    100026: forearm.R
+    100028: forearm.R.001
+    100030: forearm.R.001_end
+    100032: hand.L
+    100034: hand.L_end
+    100036: hand.R
+    100038: hand.R_end
+    100040: head
+    100042: head_end
+    100044: hips
+    100046: //RootNode
+    100048: neck
+    100050: shin.L
+    100052: shin.R
+    100054: shoulder.L
+    100056: shoulder.R
+    100058: spine
+    100060: thigh.L
+    100062: thigh.R
+    100064: upper_arm.L
+    100066: upper_arm.R
+    400000: archer arrow holder
+    400002: archer bow
+    400004: archer mesh
+    400006: archer rig
+    400008: arrow
+    400010: chest
+    400012: foot.L
+    400014: foot.L_end
+    400016: foot.R
+    400018: foot.R_end
+    400020: forearm.L
+    400022: forearm.L.001
+    400024: forearm.L.001_end
+    400026: forearm.R
+    400028: forearm.R.001
+    400030: forearm.R.001_end
+    400032: hand.L
+    400034: hand.L_end
+    400036: hand.R
+    400038: hand.R_end
+    400040: head
+    400042: head_end
+    400044: hips
+    400046: //RootNode
+    400048: neck
+    400050: shin.L
+    400052: shin.R
+    400054: shoulder.L
+    400056: shoulder.R
+    400058: spine
+    400060: thigh.L
+    400062: thigh.R
+    400064: upper_arm.L
+    400066: upper_arm.R
+    2300000: archer arrow holder
+    2300002: archer bow
+    2300004: arrow
+    3300000: archer arrow holder
+    3300002: archer bow
+    3300004: arrow
+    4300000: archer arrow holder
+    4300002: archer bow
+    4300004: archer mesh
+    4300006: arrow
+    7400000: Attacking
+    7400002: archer rig|Die
+    7400004: Idle
+    7400006: Running
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: archer mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attacking
+      takeName: archer rig|Attacking
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archer mesh
+        weight: 1
+      - path: archer rig
+        weight: 1
+      - path: archer rig/hips
+        weight: 1
+      - path: archer rig/hips/spine
+        weight: 1
+      - path: archer rig/hips/spine/chest
+        weight: 1
+      - path: archer rig/hips/spine/chest/archer arrow holder
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck/head
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/archer
+          bow
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: archer rig/hips/thigh.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: archer rig/hips/thigh.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      - path: arrow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: archer rig|Idle
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archer mesh
+        weight: 1
+      - path: archer rig
+        weight: 1
+      - path: archer rig/hips
+        weight: 1
+      - path: archer rig/hips/spine
+        weight: 1
+      - path: archer rig/hips/spine/chest
+        weight: 1
+      - path: archer rig/hips/spine/chest/archer arrow holder
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck/head
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/archer
+          bow
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: archer rig/hips/thigh.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: archer rig/hips/thigh.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      - path: arrow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running
+      takeName: archer rig|Running
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archer mesh
+        weight: 1
+      - path: archer rig
+        weight: 1
+      - path: archer rig/hips
+        weight: 1
+      - path: archer rig/hips/spine
+        weight: 1
+      - path: archer rig/hips/spine/chest
+        weight: 1
+      - path: archer rig/hips/spine/chest/archer arrow holder
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck/head
+        weight: 1
+      - path: archer rig/hips/spine/chest/neck/head/head_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/forearm.L.001/forearm.L.001_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/forearm.R.001/forearm.R.001_end
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/archer
+          bow
+        weight: 1
+      - path: archer rig/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: archer rig/hips/thigh.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: archer rig/hips/thigh.L/shin.L/foot.L/foot.L_end
+        weight: 1
+      - path: archer rig/hips/thigh.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: archer rig/hips/thigh.R/shin.R/foot.R/foot.R_end
+        weight: 1
+      - path: arrow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Low poly archer(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: archer mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.21183038, y: 0.21183038, z: 0.21183038}
+      transformModified: 1
+    - name: archer rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hips
+      position: {x: -0, y: 0.23039034, z: 0.7906671}
+      rotation: {x: 0.9782551, y: -0.000000049449483, z: -0.00000023323453, w: 0.20740533}
+      scale: {x: 1, y: 1.0000001, z: 1.0000012}
+      transformModified: 1
+    - name: spine
+      position: {x: 4.8849814e-16, y: 0.24499413, z: 0.000000007427298}
+      rotation: {x: -0.5375009, y: 0.00000009991796, z: 0.00000019260513, w: 0.8432632}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: chest
+      position: {x: 1.5839064e-11, y: 0.33503458, z: -5.4424165e-10}
+      rotation: {x: -0.020232318, y: 0.00000010390448, z: 0.0000000063938392, w: 0.9997953}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999976}
+      transformModified: 1
+    - name: archer arrow holder
+      position: {x: -0.046624854, y: 0.325506, z: -0.21857893}
+      rotation: {x: -0.66998255, y: -0.21955456, z: 0.1378947, w: 0.69563234}
+      scale: {x: 0.092126936, y: 0.060849976, z: 0.36329132}
+      transformModified: 1
+    - name: neck
+      position: {x: 5.9260685e-10, y: 0.5988156, z: 0.012965245}
+      rotation: {x: 0.0066010808, y: 0.00000003200257, z: -0.0000000014912257, w: 0.99997824}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+      transformModified: 1
+    - name: head
+      position: {x: 5.1429082e-12, y: 0.087616265, z: 0.000000010244548}
+      rotation: {x: 0.011231009, y: -0.000000015987432, z: 3.1643174e-11, w: 0.99993694}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_end
+      position: {x: -0, y: 0.625261, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder.L
+      position: {x: -0.044029243, y: 0.57255894, z: 0.08855876}
+      rotation: {x: -0.572924, y: 0.41836894, z: 0.3677028, w: 0.6012655}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+      transformModified: 1
+    - name: upper_arm.L
+      position: {x: -0.03463209, y: 0.24581324, z: -0.07476297}
+      rotation: {x: 0.14531484, y: -0.7305966, z: 0.18614317, w: 0.6406738}
+      scale: {x: 1, y: 1.0000007, z: 1.0000002}
+      transformModified: 1
+    - name: forearm.L
+      position: {x: -0.00000007299241, y: 0.3362208, z: -0.00000008246862}
+      rotation: {x: -0.009357445, y: 0.09208107, z: 0.0062131137, w: 0.9956882}
+      scale: {x: 0.9999991, y: 1.0000001, z: 1.0000004}
+      transformModified: 1
+    - name: hand.L
+      position: {x: 0.000000032782555, y: 0.36046216, z: -0.000000049173835}
+      rotation: {x: 0.017577, y: -0.7349747, z: 0.025105666, w: 0.67740166}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000011}
+      transformModified: 1
+    - name: hand.L_end
+      position: {x: -0, y: 0.22971176, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: forearm.L.001
+      position: {x: 0.000000032782555, y: 0.36046216, z: -0.000000049173835}
+      rotation: {x: 0.44870067, y: 0.4956168, z: 0.41257438, w: 0.61871976}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000004}
+      transformModified: 1
+    - name: forearm.L.001_end
+      position: {x: -0, y: 0.15534873, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder.R
+      position: {x: 0.044029232, y: 0.57255894, z: 0.08855877}
+      rotation: {x: -0.5729243, y: -0.41836852, z: -0.36770287, w: 0.6012655}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000008}
+      transformModified: 1
+    - name: upper_arm.R
+      position: {x: 0.034632094, y: 0.24581322, z: -0.07476274}
+      rotation: {x: 0.14531495, y: 0.7305966, z: -0.18614368, w: 0.6406737}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1.0000004}
+      transformModified: 1
+    - name: forearm.R
+      position: {x: -0.000000092200935, y: 0.33622065, z: -0.00000013932586}
+      rotation: {x: -0.009357437, y: -0.09208118, z: -0.0062132394, w: 0.99568814}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: hand.R
+      position: {x: 0.000000014342368, y: 0.36046195, z: 0.000000003585592}
+      rotation: {x: -0.017576866, y: -0.7349748, z: 0.025105515, w: -0.6774016}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.99999857}
+      transformModified: 1
+    - name: archer bow
+      position: {x: 0.014931929, y: -0.07200665, z: -0.034847364}
+      rotation: {x: 0.13870724, y: -0.12347784, z: 0.69080555, w: 0.69878554}
+      scale: {x: 0.6808145, y: 0.68081516, z: 0.680815}
+      transformModified: 1
+    - name: hand.R_end
+      position: {x: -0, y: 0.22971176, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: forearm.R.001
+      position: {x: 0.000000014342368, y: 0.36046195, z: 0.000000003585592}
+      rotation: {x: -0.44870088, y: 0.4956168, z: 0.4125743, w: -0.6187197}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: forearm.R.001_end
+      position: {x: -0, y: 0.15534873, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh.L
+      position: {x: -0.13886243, y: 0.23212974, z: 0.023093523}
+      rotation: {x: 0.8293666, y: 0.010959971, z: -0.007381359, w: 0.5585485}
+      scale: {x: 0.9999997, y: 1.0000019, z: 1.000002}
+      transformModified: 1
+    - name: shin.L
+      position: {x: -0.0000000036651273, y: 0.35918045, z: -0.0000000016267008}
+      rotation: {x: 0.0147390645, y: -0.000041002404, z: 0.02920264, w: 0.9994648}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999993}
+      transformModified: 1
+    - name: foot.L
+      position: {x: -0.000000011601964, y: 0.43790263, z: -6.760228e-11}
+      rotation: {x: -0.67890275, y: 0.028342059, z: 0.007140775, w: 0.7336462}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000008}
+      transformModified: 1
+    - name: foot.L_end
+      position: {x: -0, y: 0.33511797, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh.R
+      position: {x: 0.13886246, y: 0.23212975, z: 0.023093399}
+      rotation: {x: 0.8293666, y: -0.010959728, z: 0.0073809805, w: 0.5585485}
+      scale: {x: 0.99999976, y: 1.0000013, z: 1.0000011}
+      transformModified: 1
+    - name: shin.R
+      position: {x: -0.0000000034565346, y: 0.35918045, z: -0.0000000012350327}
+      rotation: {x: 0.0147390645, y: 0.00004100194, z: -0.02920264, w: 0.9994648}
+      scale: {x: 0.99999976, y: 1.0000008, z: 1.0000005}
+      transformModified: 1
+    - name: foot.R
+      position: {x: -0.0000000022337419, y: 0.4379026, z: -3.3050807e-10}
+      rotation: {x: -0.67890275, y: -0.028342033, z: -0.007140783, w: 0.7336462}
+      scale: {x: 1.0000002, y: 1.0000017, z: 1.0000012}
+      transformModified: 1
+    - name: foot.R_end
+      position: {x: -0, y: 0.33511797, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arrow
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.01672598, y: 0.01672598, z: 0.01672598}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
