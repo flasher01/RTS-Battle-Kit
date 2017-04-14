@@ -28,7 +28,8 @@ public class Character : MonoBehaviour {
 	public GameObject skeleton;
 	public int skeletonAmount;
 	public float newSkeletonsWaitTime;
-   NavMeshAgent agent;
+	
+	private UnityEngine.AI.NavMeshAgent agent;
 	private GameObject[] enemies;
 	private GameObject health;
 	private GameObject healthbar;
@@ -49,7 +50,7 @@ public class Character : MonoBehaviour {
 	//selected character is not moving to clicked position
 	goingToClickedPos = false;
 	//find navmesh agent component
-	agent = gameObject.GetComponent<NavMeshAgent>();
+	agent = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
 	animators = gameObject.GetComponentsInChildren<Animator>();
 	
 	//find objects attached to this character

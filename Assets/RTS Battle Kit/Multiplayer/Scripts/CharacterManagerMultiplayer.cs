@@ -199,7 +199,7 @@ public class CharacterManagerMultiplayer : NetworkBehaviour {
 				//instantiate explosion
 				
 				if(host){
-					GameObject explosion = Instantiate(bombExplosion, hit.point, Quaternion.identity)as GameObject;
+					GameObject explosion = Instantiate(bombExplosion, hit.point, Quaternion.identity);
 					NetworkServer.Spawn(explosion);
 					
 					foreach(GameObject enemy in GameObject.FindGameObjectsWithTag("Player 2 unit")){
@@ -527,7 +527,7 @@ public class CharacterManagerMultiplayer : NetworkBehaviour {
 	[Command]
 	void CmdSpawnExplosion(Vector3 position){
 		//add the explosion and spawn it on the server
-		GameObject explosion = Instantiate(bombExplosion, position, Quaternion.identity) as GameObject ;
+		GameObject explosion = Instantiate(bombExplosion, position, Quaternion.identity);
 		NetworkServer.Spawn(explosion);
 		
 		//this is a command, so it came from the client, which means the bomb should find and kill all units of player 1 in range (player1 = host)

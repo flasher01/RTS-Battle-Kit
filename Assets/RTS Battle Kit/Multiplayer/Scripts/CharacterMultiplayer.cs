@@ -27,7 +27,7 @@ public class CharacterMultiplayer : NetworkBehaviour {
 	[HideInInspector]
 	public Vector3 castleAttackPosition;
 	
-NavMeshAgent agent;
+	private UnityEngine.AI.NavMeshAgent agent;
 	private GameObject[] enemies;
 	private GameObject health;
 	private GameObject healthbar;
@@ -58,7 +58,7 @@ NavMeshAgent agent;
 	//selected character is not moving to clicked position
 	goingToClickedPos = false;
 	//find navmesh agent component
-	agent = gameObject.GetComponent<NavMeshAgent>();
+	agent = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
 	
 	//find objects attached to this character
 	health = transform.Find("Health").gameObject;
@@ -92,13 +92,11 @@ NavMeshAgent agent;
 			agent.SetDestination(currentTargetPosition); 
 			
 			//if the the distance is small enough:
-			if(Vector3.Distance(currentTargetPosition, transform.position) <= agent.stoppingDistance)
-            {
+			if(Vector3.Distance(currentTargetPosition, transform.position) <= agent.stoppingDistance){
 				
 				//look at the enemy
-			//	Vector3 currentTargetPosition = currentTarget.position;
-                 currentTargetPosition = currentTarget.position;
-                currentTargetPosition.y = transform.position.y;
+				Vector3 currentTargetPosition = currentTarget.position;
+				currentTargetPosition.y = transform.position.y;
 				transform.LookAt(currentTargetPosition);	
 				
 				//play attack animation
